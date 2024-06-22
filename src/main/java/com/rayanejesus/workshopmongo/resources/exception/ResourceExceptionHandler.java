@@ -10,7 +10,6 @@ import com.rayanejesus.workshopmongo.services.exception.ObjectNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 
 
-//classe responsável por tratar possíveis erros nas requisições
 @ControllerAdvice
 public class ResourceExceptionHandler {
 	

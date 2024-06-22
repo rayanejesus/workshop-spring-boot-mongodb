@@ -13,10 +13,8 @@ public class UserDTO implements Serializable {
 	private String email;
 	
 	public UserDTO () {}
-//Contrutor sobrecarregado para instaciar um UserDTO de forma automatizada a partir de "User".
 	public UserDTO (User obj) {
 		
-		//Copio os dados do usuário para o DTO
 		id = obj.getId();
 		name = obj.getName();
 		email = obj.getEmail();
